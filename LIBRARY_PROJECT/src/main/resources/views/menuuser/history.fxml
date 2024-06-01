@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="750.0" prefWidth="950.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <content>
+      <Pane prefHeight="750.0" prefWidth="950.0" style="-fx-background-color: #FFF2D3;">
+         <children>
+            <ToolBar layoutX="-4.0" layoutY="-2.0" prefHeight="40.0" prefWidth="956.0" style="-fx-background-color: #584B33;">
+               <items>
+                  <Button mnemonicParsing="false" onAction="#goToIndex" style="-fx-background-color: #FFF2D3;" text="MENU">
+                     <font>
+                        <Font name="Thonburi Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#goToBorrowBook" style="-fx-background-color: #FFF2D3;" text="BORROW BOOK">
+                     <font>
+                        <Font name="Thonburi Bold" size="14.0" />
+                     </font>
+                  </Button>
+               </items>
+            </ToolBar>
+            <Label layoutX="399.0" layoutY="57.0" prefHeight="44.0" prefWidth="138.0" text="HISTORY">
+               <font>
+                  <Font name="Gurmukhi Sangam MN" size="32.0" />
+               </font>
+            </Label>
+            <TableView layoutX="37.0" layoutY="120.0" prefHeight="574.0" prefWidth="878.0" style="-fx-background-color: #FFF2D3; -fx-border-color: #584B33;">
+               <columns>
+                  <TableColumn prefWidth="217.7302131652832" text="BOOK" />
+                  <TableColumn prefWidth="117.50003051757812" text="DATE" />
+                  <TableColumn minWidth="0.0" prefWidth="110.43115234375" text="RETURN DATE" />
+                  <TableColumn minWidth="1.829925537109375" prefWidth="145.56887817382812" text="RETURN FEE" />
+                  <TableColumn prefWidth="284.12896728515625" text="BOOK DETAIL" />
+               </columns>
+            </TableView>
+         </children>
+      </Pane>
+   </content>
+</ScrollPane>

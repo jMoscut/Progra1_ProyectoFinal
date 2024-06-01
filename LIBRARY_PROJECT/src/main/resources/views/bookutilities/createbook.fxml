@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<ScrollPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="750.0" prefWidth="950.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <content>
+      <Pane prefHeight="749.0" prefWidth="951.0" style="-fx-background-color: #FFF2D3;">
+         <children>
+            <ToolBar prefHeight="40.0" prefWidth="937.0" style="-fx-background-color: #584B33;">
+               <items>
+                  <Button mnemonicParsing="false" style="-fx-background-color: #FFF2D3;" text="MENU" onAction="#goToIndexAdmin">
+                     <font>
+                        <Font name="Thonburi Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" style="-fx-background-color: #FFF2D3;" text="BOOK UTILITIES" onAction="#goToBookUtilities">
+                     <font>
+                        <Font name="Thonburi Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" style="-fx-background-color: #FFF2D3;" text="UPDATE BOOK" onAction="#goToUpdateBook">
+                     <font>
+                        <Font name="Thonburi Bold" size="14.0" />
+                     </font>
+                  </Button>
+               </items>
+            </ToolBar>
+            <Label layoutX="306.0" layoutY="134.0" text="NAME">
+               <font>
+                  <Font name="Thonburi Bold" size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="317.0" layoutY="170.0" text="ISBN">
+               <font>
+                  <Font name="Thonburi Bold" size="19.0" />
+               </font>
+            </Label>
+            <Button layoutX="211.0" layoutY="578.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="241.0" style="-fx-background-color: #584B33;" text="CREATE BOOK" textFill="#fff2d3">
+               <font>
+                  <Font name="Thonburi Bold" size="19.0" />
+               </font>
+            </Button>
+            <Label layoutX="354.0" layoutY="58.0" prefHeight="44.0" prefWidth="235.0" text="CREATE BOOK">
+               <font>
+                  <Font name="Gurmukhi Sangam MN" size="32.0" />
+               </font>
+            </Label>
+            <Label layoutX="303.0" layoutY="207.0" text="GENRE">
+               <font>
+                  <Font name="Thonburi Bold" size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="287.0" layoutY="244.0" text="AUTHOR">
+               <font>
+                  <Font name="Thonburi Bold" size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="229.0" layoutY="282.0" text="RELEASE YEAR">
+               <font>
+                  <Font name="Thonburi Bold" size="19.0" />
+               </font>
+            </Label>
+            <Button layoutX="504.0" layoutY="578.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="241.0" style="-fx-background-color: #584B33;" text="CANCEL" textFill="#fff2d3">
+               <font>
+                  <Font name="Thonburi Bold" size="19.0" />
+               </font>
+            </Button>
+            <PasswordField layoutX="379.0" layoutY="279.0" prefHeight="30.0" prefWidth="241.0" style="-fx-background-color: #FFF2D3; -fx-border-color: #584B33;">
+               <font>
+                  <Font name="Thonburi Bold" size="15.0" />
+               </font>
+            </PasswordField>
+            <TextField layoutX="379.0" layoutY="130.0" prefHeight="26.0" prefWidth="241.0" style="-fx-background-color: #FFF2D3; -fx-border-color: #584B33;">
+               <font>
+                  <Font name="Thonburi Bold" size="15.0" />
+               </font>
+            </TextField>
+            <TextField layoutX="379.0" layoutY="167.0" prefHeight="26.0" prefWidth="241.0" style="-fx-background-color: #FFF2D3; -fx-border-color: #584B33;">
+               <font>
+                  <Font name="Thonburi Bold" size="15.0" />
+               </font>
+            </TextField>
+            <TextField layoutX="379.0" layoutY="204.0" prefHeight="26.0" prefWidth="241.0" style="-fx-background-color: #FFF2D3; -fx-border-color: #584B33;">
+               <font>
+                  <Font name="Thonburi Bold" size="15.0" />
+               </font>
+            </TextField>
+            <TextField layoutX="379.0" layoutY="241.0" prefHeight="26.0" prefWidth="241.0" style="-fx-background-color: #FFF2D3; -fx-border-color: #584B33;">
+               <font>
+                  <Font name="Thonburi Bold" size="15.0" />
+               </font>
+            </TextField>
+            <Label layoutX="268.0" layoutY="321.0" text="EDITORIAL">
+               <font>
+                  <Font name="Thonburi Bold" size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="210.0" layoutY="358.0" text="AVAILABLE QTY">
+               <font>
+                  <Font name="Thonburi Bold" size="19.0" />
+               </font>
+            </Label>
+            <PasswordField layoutX="379.0" layoutY="317.0" prefHeight="30.0" prefWidth="241.0" style="-fx-background-color: #FFF2D3; -fx-border-color: #584B33;">
+               <font>
+                  <Font name="Thonburi Bold" size="15.0" />
+               </font>
+            </PasswordField>
+            <PasswordField layoutX="379.0" layoutY="356.0" prefHeight="30.0" prefWidth="241.0" style="-fx-background-color: #FFF2D3; -fx-border-color: #584B33;">
+               <font>
+                  <Font name="Thonburi Bold" size="15.0" />
+               </font>
+            </PasswordField>
+            <ImageView fx:id="imageView" fitHeight="159.0" fitWidth="337.0" layoutX="379.0" layoutY="401.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../../images/noimage.png" />
+               </image>
+            </ImageView>
+            <Button alignment="CENTER" contentDisplay="TOP" layoutX="205.0" layoutY="427.0" mnemonicParsing="false" prefHeight="93.0" prefWidth="162.0" style="-fx-background-color: #584B33;" text="UPLOAD &#10;PICTURE" textFill="#fff2d3" textOverrun="CLIP">
+               <font>
+                  <Font name="Thonburi Bold" size="19.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </content>
+</ScrollPane>
